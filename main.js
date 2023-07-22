@@ -88,7 +88,7 @@ if(temporizador == false){
             if(aciertos == 8){
                 clearInterval(tiempoRegresivoid);
                 mostrarAciertos.innerHTML = `Aciertos: ${aciertos}`;
-                mostrarTiempo.innerHTML = `Muy bien gordita! solo tardaste ${timerInicial - timer} segundos`;
+                mostrarTiempo.innerHTML = `Bien ahí ! solo tardaste ${timerInicial - timer} segundos`;
                 mostrarMovimientos.innerHTML = `Movimientos: ${movimientos}`;
                 
 
